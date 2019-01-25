@@ -1,5 +1,4 @@
 #!/usr/bin/python
-import numpy as np
 import pandas as pd
 import cv2
 from sklearn.linear_model import LinearRegression
