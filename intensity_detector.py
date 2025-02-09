@@ -10,7 +10,7 @@ df.columns = ["x", "y", "width", "height", "label"]
 
 # Convert features and labels
 X = df.iloc[:, :-1].values  # Features: x, y, width, height
-labels = np.array(df.iloc[:, -1].values)  # Labels (renamed from y to labels)
+labels = np.array(df.iloc[:, -1].values)  # Labels
 
 # Build a KDTree for fast nearest neighbor search
 tree = KDTree(X)
